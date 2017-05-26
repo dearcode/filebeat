@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/transport"
 )
 
 type MockServer struct {

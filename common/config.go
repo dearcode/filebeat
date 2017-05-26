@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common/file"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/common/file"
+	"github.com/dearcode/libbeat/logp"
 	"github.com/elastic/go-ucfg"
 	"github.com/elastic/go-ucfg/cfgutil"
 	cfgflag "github.com/elastic/go-ucfg/flag"

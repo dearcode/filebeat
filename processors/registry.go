@@ -3,9 +3,9 @@ package processors
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	p "github.com/elastic/beats/libbeat/plugin"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
+	p "github.com/dearcode/libbeat/plugin"
 )
 
 type processorPlugin struct {

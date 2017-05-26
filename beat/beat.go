@@ -42,21 +42,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/beats/libbeat/cfgfile"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/dashboards/dashboards"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/paths"
-	"github.com/elastic/beats/libbeat/plugin"
-	"github.com/elastic/beats/libbeat/processors"
-	"github.com/elastic/beats/libbeat/publisher"
-	svc "github.com/elastic/beats/libbeat/service"
+	"github.com/dearcode/libbeat/cfgfile"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/dashboards/dashboards"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs/elasticsearch"
+	"github.com/dearcode/libbeat/paths"
+	"github.com/dearcode/libbeat/plugin"
+	"github.com/dearcode/libbeat/processors"
+	"github.com/dearcode/libbeat/publisher"
+	svc "github.com/dearcode/libbeat/service"
 	"github.com/satori/go.uuid"
 
 	// Register default processors.
-	_ "github.com/elastic/beats/libbeat/processors/actions"
-	_ "github.com/elastic/beats/libbeat/processors/add_cloud_metadata"
+	_ "github.com/dearcode/libbeat/processors/actions"
 )
 
 // Beater is the interface that must be implemented by every Beat. A Beater

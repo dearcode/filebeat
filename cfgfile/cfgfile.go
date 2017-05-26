@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
 )
 
 // Command line flags.

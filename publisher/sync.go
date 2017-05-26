@@ -1,6 +1,6 @@
 package publisher
 
-import "github.com/elastic/beats/libbeat/common/op"
+import "github.com/dearcode/libbeat/common/op"
 
 type syncPipeline struct {
 	pub *BeatPublisher

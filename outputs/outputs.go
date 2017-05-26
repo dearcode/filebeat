@@ -1,9 +1,9 @@
 package outputs
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/op"
+	"github.com/dearcode/libbeat/logp"
 )
 
 type Options struct {

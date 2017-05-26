@@ -7,24 +7,24 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/op"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/processors"
 	"github.com/nranchev/go-libGeoIP"
 
 	// load supported output plugins
-	_ "github.com/elastic/beats/libbeat/outputs/console"
-	_ "github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	_ "github.com/elastic/beats/libbeat/outputs/fileout"
-	_ "github.com/elastic/beats/libbeat/outputs/kafka"
-	_ "github.com/elastic/beats/libbeat/outputs/logstash"
-	_ "github.com/elastic/beats/libbeat/outputs/redis"
+	_ "github.com/dearcode/libbeat/outputs/console"
+	_ "github.com/dearcode/libbeat/outputs/elasticsearch"
+	_ "github.com/dearcode/libbeat/outputs/fileout"
+	_ "github.com/dearcode/libbeat/outputs/kafka"
+	_ "github.com/dearcode/libbeat/outputs/logstash"
+	_ "github.com/dearcode/libbeat/outputs/redis"
 
 	// load support output codec
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/json"
+	_ "github.com/dearcode/libbeat/outputs/codecs/format"
+	_ "github.com/dearcode/libbeat/outputs/codecs/json"
 )
 
 // command line flags

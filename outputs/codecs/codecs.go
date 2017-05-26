@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/plugin"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/plugin"
 )
 
 type codecPlugin struct {

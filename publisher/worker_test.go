@@ -6,7 +6,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common/op"
+	"github.com/dearcode/libbeat/common/op"
 	"github.com/stretchr/testify/assert"
 )
 

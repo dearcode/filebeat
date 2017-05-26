@@ -5,8 +5,8 @@ package publisher
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/dearcode/libbeat/common"
 )
 
 func TestJsonCodec(t *testing.T) {

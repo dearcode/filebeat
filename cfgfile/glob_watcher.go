@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/logp"
 	"github.com/mitchellh/hashstructure"
 )
 

@@ -3,7 +3,7 @@ package outputs
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/dearcode/libbeat/common"
 )
 
 type Codec interface {

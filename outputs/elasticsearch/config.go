@@ -3,7 +3,7 @@ package elasticsearch
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs"
 )
 
 type elasticsearchConfig struct {

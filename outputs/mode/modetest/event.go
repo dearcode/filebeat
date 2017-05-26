@@ -1,8 +1,8 @@
 package modetest
 
 import (
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/outputs"
 )
 
 type EventInfo struct {

@@ -6,7 +6,7 @@ import (
 	"flag"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/logp"
 )
 
 type pluginList struct {

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
 	"github.com/stretchr/testify/assert"
 )
 

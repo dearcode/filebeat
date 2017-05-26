@@ -3,11 +3,11 @@ package processors_test
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
-	_ "github.com/elastic/beats/libbeat/processors/actions"
-	_ "github.com/elastic/beats/libbeat/processors/add_cloud_metadata"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/processors"
+	_ "github.com/dearcode/libbeat/processors/actions"
+	_ "github.com/dearcode/libbeat/processors/add_cloud_metadata"
 	"github.com/stretchr/testify/assert"
 )
 

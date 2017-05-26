@@ -12,10 +12,10 @@ import (
 
 	"github.com/elastic/go-lumber/server/v2"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/transport/transptest"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/op"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/transport/transptest"
 )
 
 const (

@@ -11,7 +11,7 @@ import (
 	"github.com/armon/go-socks5"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/dearcode/libbeat/outputs/transport"
 )
 
 // netSOCKS5Proxy starts a new SOCKS5 proxy server that listens on localhost.

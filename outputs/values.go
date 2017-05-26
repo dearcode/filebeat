@@ -1,6 +1,6 @@
 package outputs
 
-import "github.com/elastic/beats/libbeat/common"
+import "github.com/dearcode/libbeat/common"
 
 // Values is a recursive key/value store for use by output plugins and publisher
 // pipeline to share context-dependent values.

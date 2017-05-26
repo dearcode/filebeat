@@ -8,11 +8,11 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/outil"
+	"github.com/dearcode/libbeat/outputs/transport"
 )
 
 var (

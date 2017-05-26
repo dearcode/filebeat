@@ -3,10 +3,10 @@ package format
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/fmtstr"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
 )
 
 type Encoder struct {

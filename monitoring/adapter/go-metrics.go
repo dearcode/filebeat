@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/monitoring"
 	metrics "github.com/rcrowley/go-metrics"
 )
 

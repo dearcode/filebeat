@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common/file"
+	"github.com/dearcode/libbeat/common/file"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -13,12 +13,12 @@ import (
 	"time"
 
 	"github.com/dearcode/kafkabeat/offset"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/mode"
+	"github.com/dearcode/libbeat/outputs/outil"
+	"github.com/dearcode/libbeat/outputs/transport"
 )
 
 type Client struct {

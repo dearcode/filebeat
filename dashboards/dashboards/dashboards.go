@@ -3,8 +3,8 @@ package dashboards
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/outputs/elasticsearch"
 )
 
 // DashboardLoader is a subset of the Elasticsearch client API capable of

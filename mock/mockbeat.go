@@ -3,10 +3,10 @@ package mock
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/publisher"
+	"github.com/dearcode/libbeat/beat"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/publisher"
 )
 
 ///*** Mock Beat Setup ***///

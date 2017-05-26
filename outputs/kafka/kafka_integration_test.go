@@ -15,14 +15,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode/modetest"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/fmtstr"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/mode/modetest"
 
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/format"
-	_ "github.com/elastic/beats/libbeat/outputs/codecs/json"
+	_ "github.com/dearcode/libbeat/outputs/codecs/format"
+	_ "github.com/dearcode/libbeat/outputs/codecs/json"
 )
 
 const (

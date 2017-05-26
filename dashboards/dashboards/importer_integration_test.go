@@ -5,8 +5,8 @@ package dashboards
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs/elasticsearch"
 	"github.com/stretchr/testify/assert"
 )
 

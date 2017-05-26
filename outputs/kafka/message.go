@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs"
 )
 
 type message struct {

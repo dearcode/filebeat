@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/logp"
 )
 
 type TLSConfig struct {

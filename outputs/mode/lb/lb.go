@@ -4,10 +4,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/elastic/beats/libbeat/common/op"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
+	"github.com/dearcode/libbeat/common/op"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/mode"
 )
 
 // LB balances the sending of events between multiple connections.

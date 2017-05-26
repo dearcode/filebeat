@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs/transport"
 	"github.com/joeshaw/multierror"
 )
 

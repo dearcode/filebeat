@@ -3,8 +3,8 @@ package adapter
 import (
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/monitoring"
 )
 
 // provide filters for filtering and adapting a metric type

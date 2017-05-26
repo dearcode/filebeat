@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/logp"
 )
 
 // MessageOutputter is a function type for injecting status logging
@@ -71,7 +71,7 @@ func (imp Importer) Import() error {
 
 // CreateKibanaIndex creates the kibana index if it doesn't exists and sets
 // some index properties which are needed as a workaround for:
-// https://github.com/elastic/beats-dashboards/issues/94
+// https://github.com/dearcode-dashboards/issues/94
 func (imp Importer) CreateKibanaIndex() error {
 	imp.client.CreateIndex(imp.cfg.KibanaIndex, nil)
 	_, _, err := imp.client.CreateIndex(imp.cfg.KibanaIndex+"/_mapping/search",

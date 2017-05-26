@@ -3,8 +3,8 @@ package fileout
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
 )
 
 type config struct {

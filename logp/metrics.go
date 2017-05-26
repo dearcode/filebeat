@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/dearcode/libbeat/monitoring"
 )
 
 // logMetrics logs at Info level the integer expvars that have changed in the

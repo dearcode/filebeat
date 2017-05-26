@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/mode/modetest"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/mode"
+	"github.com/dearcode/libbeat/outputs/mode/modetest"
 )
 
 func TestAsyncLBStartStop(t *testing.T) {

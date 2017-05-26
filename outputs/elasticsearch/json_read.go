@@ -3,7 +3,7 @@ package elasticsearch
 import (
 	"errors"
 
-	"github.com/elastic/beats/libbeat/common/streambuf"
+	"github.com/dearcode/libbeat/common/streambuf"
 )
 
 // SAX like json parser. But instead of relying on callbacks, state machine

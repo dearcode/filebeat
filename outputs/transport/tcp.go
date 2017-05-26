@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/elastic/beats/libbeat/logp"
+	"github.com/dearcode/libbeat/logp"
 )
 
 func NetDialer(timeout time.Duration) Dialer {

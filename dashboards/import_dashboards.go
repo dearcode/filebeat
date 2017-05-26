@@ -7,13 +7,13 @@ import (
 	"os"
 	"time"
 
-	lbeat "github.com/elastic/beats/libbeat/beat"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/dashboards/dashboards"
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/elasticsearch"
-	"github.com/elastic/beats/libbeat/outputs/outil"
-	"github.com/elastic/beats/libbeat/outputs/transport"
+	lbeat "github.com/dearcode/libbeat/beat"
+	"github.com/dearcode/libbeat/common/fmtstr"
+	"github.com/dearcode/libbeat/dashboards/dashboards"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/elasticsearch"
+	"github.com/dearcode/libbeat/outputs/outil"
+	"github.com/dearcode/libbeat/outputs/transport"
 )
 
 var usage = fmt.Sprintf(`

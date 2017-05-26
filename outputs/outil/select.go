@@ -3,9 +3,9 @@ package outil
 import (
 	"fmt"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/fmtstr"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/fmtstr"
+	"github.com/dearcode/libbeat/processors"
 )
 
 type Selector struct {

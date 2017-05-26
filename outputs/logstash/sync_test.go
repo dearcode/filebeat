@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/transport"
-	"github.com/elastic/beats/libbeat/outputs/transport/transptest"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/mode"
+	"github.com/dearcode/libbeat/outputs/transport"
+	"github.com/dearcode/libbeat/outputs/transport/transptest"
 )
 
 type testSyncDriver struct {

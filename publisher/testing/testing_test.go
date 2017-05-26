@@ -3,7 +3,7 @@ package testing
 import (
 	"testing"
 
-	"github.com/elastic/beats/libbeat/common"
+	"github.com/dearcode/libbeat/common"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/mode/modetest"
+	"github.com/dearcode/libbeat/outputs"
+	"github.com/dearcode/libbeat/outputs/mode"
+	"github.com/dearcode/libbeat/outputs/mode/modetest"
 )
 
 func TestLoadBalancerStartStop(t *testing.T) {

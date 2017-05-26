@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/common/jsontransform"
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/processors"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/common/jsontransform"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/processors"
 	"github.com/pkg/errors"
 )
 

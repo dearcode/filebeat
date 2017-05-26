@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/elastic/beats/libbeat/outputs/outil"
+	"github.com/dearcode/libbeat/outputs/outil"
 )
 
 const ElasticsearchDefaultHost = "localhost"

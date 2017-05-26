@@ -3,10 +3,10 @@ package modeutil
 import (
 	"time"
 
-	"github.com/elastic/beats/libbeat/common"
-	"github.com/elastic/beats/libbeat/outputs/mode"
-	"github.com/elastic/beats/libbeat/outputs/mode/lb"
-	"github.com/elastic/beats/libbeat/outputs/mode/single"
+	"github.com/dearcode/libbeat/common"
+	"github.com/dearcode/libbeat/outputs/mode"
+	"github.com/dearcode/libbeat/outputs/mode/lb"
+	"github.com/dearcode/libbeat/outputs/mode/single"
 )
 
 type ClientFactory func(host string) (mode.ProtocolClient, error)

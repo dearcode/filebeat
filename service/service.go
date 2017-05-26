@@ -12,8 +12,8 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/elastic/beats/libbeat/logp"
-	"github.com/elastic/beats/libbeat/monitoring"
+	"github.com/dearcode/libbeat/logp"
+	"github.com/dearcode/libbeat/monitoring"
 
 	"net/http"
 	_ "net/http/pprof"
