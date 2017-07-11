@@ -35,14 +35,14 @@ func (tv *TimeValue) timestamp(t time.Time) string {
 		tv.s = t.Unix()
 	}
 	tv.ms++
-	return t.Add(tv.ms * time.Millisecond).UTC().Format(common.TsLayout)
+	return t.Add(tv.ms * time.Millisecond).Format(common.TsLayout)
 }
 
 func init() {
-	processors.RegisterPlugin("filter_fields", configChecked(newFilterFields, requireFields("topic", "regexp", "names"), allowedFields("topic", "key", "regexp", "when", "names", "date_layout")))
+	processors.RegisterPlugin("filter_fields", configChecked(NewFilterFields, requireFields("topic", "regexp", "names"), allowedFields("topic", "key", "regexp", "when", "names", "date_layout")))
 }
 
-func newFilterFields(cfg common.Config) (processors.Processor, error) {
+func NewFilterFields(cfg common.Config) (processors.Processor, error) {
 	c := struct {
 		Key        string   `config:"key"`
 		Topic      string   `config:"topic"`
@@ -104,6 +104,12 @@ func (f filterFields) Run(event common.MapStr) (common.MapStr, error) {
 			t, err := time.ParseInLocation(f.DateLayout, v, time.Local)
 			if err != nil {
 				return event, err
+			}
+			if t.Year() == 0 {
+				t = t.AddDate(time.Now().Year(), 0, 0)
+				if t.Month() > time.Now().Month() {
+					t = t.AddDate(-1, 0, 0)
+				}
 			}
 			event.Put(key, f.timeValue.timestamp(t))
 			continue
